@@ -1,0 +1,290 @@
+
+@import url("bader_al-gordabia.ttf");
+@import url(seguisb.ttf);
+@import url(MicrosoftSansSerif.ttf);
+@import url(JF-Flat-Regular.ttf);
+
+
+@font-face{
+   font-family:Flat-Regular;
+  src:  url(JF-Flat-Regular.ttf);
+}
+
+body{
+    
+}
+
+.arabic {
+    direction: rtl!important;
+    text-align: right!important;
+    font-family: Flat-Regular;
+    font-size: 14px;
+}
+table{
+    font-size: 14px;
+}
+.row ,.mr-0{
+    margin: 0px!important;
+}
+.pad-0 {
+    padding: 0px!important;
+}
+.relative{
+    position: relative!important;
+}
+
+ .bg-main a{
+    color: #fff!important;
+}
+.main-color ,.fa-caret-left ,.text-danger 
+{
+    color: #f2cd4c!important;
+}
+
+.bg-w{
+    background-color:#fff!important;
+}
+.bg-none , .card-header{
+    background: none!important;
+}
+.bg-b , .bg-b a{
+    background: #000!important;
+        color: #f2cd4c!important;
+
+}
+nav li{
+    border-right: 1px solid lightgray;
+     border-left: 1px solid lightgray;
+    padding: .8rem .1rem;
+}
+.border-topp{
+    border-top: 3px solid #f2cd4c!important;
+}
+.border-none{
+    border: none!important;
+}
+
+a{
+    color: #000;
+}
+.ul2 ,.ul22 ,.ul13{
+    display: none;
+}
+.ul1:hover .ul2  ,.ul11:hover .ul22 ,.ul12:hover .ul13 {
+    display: block;
+}
+.ul1 ,.ul11 ,.ul12{
+    position: relative;
+}
+.ul2 {
+    position: absolute;
+    right:0;
+    left:0;
+    top:0;
+    width:150px;
+    margin-top:40px;
+    background-color: white;
+    border:1px solid lightgray;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ul22, .ul13{
+    position: absolute;
+    right:100%;
+    top:-90%;
+    width:150px;
+    margin-top:40px;
+    background-color: white;
+    border:1px solid lightgray;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ul2 li{
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.ul2 li:hover {
+background:  #000;    
+}
+.ul2 li:hover a{
+color:  #fff;    
+}
+.svg-inline--fa {
+    font-size: 12px;
+    margin: 0px 3px;
+    color: #f2cd4c;
+}
+.rate1, .info1,.display-none{
+    display: none!important;
+}
+.display-block{
+    display: block!important;
+}
+
+
+
+.whatsapp ,.mobile{
+    position: fixed;
+    bottom: 80px;
+    left: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    z-index: 8;
+        border: solid 2px #2ac765;
+    background: #2ac765;
+}
+.mobile{
+   bottom: 20px;
+    border: solid 2px #2196f3;
+    background: #2196f3;
+}
+.whatsapp .svg-inline--fa ,.mobile .svg-inline--fa{
+    line-height: 50px;
+    color: #fff;
+   
+}
+.country{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    z-index: 1111111;
+    background: #9a96968c;
+    padding-top: 1%;
+    bottom: 0;
+  
+}
+.country > div{
+    padding: 5px!important;
+    width: 45%;
+    margin: auto;
+        background: #fff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.country img{
+    height: 85vh;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: fill;
+}
+.shadow{
+       box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.abs{
+    position: absolute;
+    right: 10px;
+    top:0;
+    z-index: 111;
+}
+ .sidbar{
+            position: absolute;
+            width:200px;
+            background:#fff;;
+            top: 100%;
+            display: none;
+            z-index: 99999;
+    padding: 10px 5px;
+              transition: .3;
+             box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        }
+
+ .open-sidbar{
+            display: block;
+        }
+.nav .nav-link {
+    display: block;
+    padding: .5rem .1rem;
+}
+.logo{
+    width: 200px
+}
+#accordion .btn-dark:hover{
+    background:#f2cd4c!important;
+    border: 1px solid  #f2cd4c!important;
+    
+}
+#accordion .btn-dark{
+       background: #000!important;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 5px;
+    padding: .5rem 1rem;
+}
+#accordion .active{
+  background: #f2cd4c!important;
+    border:1px solid #f2cd4c!important;
+}
+.bg-main {
+    background: #f2cd4c!important;
+    color: #fff!important;
+}
+.fa-check{
+    color: #f2cd4c!important;
+}
+.card{
+    margin-bottom: 5px;
+}
+footer ,footer a{
+    background: #000;
+    color: #fff;
+}
+footer p .svg-inline--fa {
+    font-size: 18px;
+}
+..icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background:  #f2cd4c;
+    border-radius: 50%;
+    color:#fff;
+    text-align: center;
+    padding-top: 5px;
+}
+footer .col-md-2{
+    padding-top: 80px;
+}
+.img{
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+select ,input ,textarea{
+    margin-bottom: 5px;
+}
+.h-80{
+ height: 80vh;
+    object-fit: fill;
+}
+.h-img{
+    height: 50vh;
+      object-fit: fill;
+}
+.arabic .form-check-input{
+     box-shadow:none;
+    margin-right: -15px!important;
+    margin-left: 0px!important;
+}
+.form-group > label{
+    font-weight: bold;
+}
+.left-menu div {
+    width: 145px;
+    height: 125px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 40px;
+    position: relative;
+    color: #212224;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
